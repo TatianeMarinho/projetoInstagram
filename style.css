@@ -139,20 +139,19 @@ body{
 /* media queries */
 
 
-@media (max-width: 1024px) {
+@media (max-width: 1024px){
     .instagram-wrapper {
         width: 90%;
     }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 650px){
     body {
-        background-color: #969494;
         align-items: center;
         justify-content: center;
     }
 
-    .instagramWrapper {
+    .instagramWrapper{
         width: 90%;
         flex-direction: column;
         align-items: center;
@@ -160,16 +159,20 @@ body{
         margin-left: 15px;
     }
 
-    .instragramPhone {
+    .instagramPhone{
         display: none;
     }
 
-    .instagramContinue {
+    .instagramContinue{
         width: 100%;
         background-color: rgb(95, 94, 94)
         }
     
     .group {
-        border: 1px solid transparent;
+        border: none;
+    }
+
+    .appDownload{
+        flex-direction: row;
     }
 }
